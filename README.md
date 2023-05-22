@@ -28,5 +28,5 @@ Docking based molecular generation module (suitable for fused-ring nitro compoun
 **Warning:** *Please remove the H atom of the skeleton in the mol file, and the retained H atom will not be replaced by substituents.*
 ## Example: ##
     python EM_Generator_Docking.py -s Examples/MYX_AB.mol -m
-
+*The substituents exist in the 'sub.txt' file in the format of SMILES and are placed in the same directory as the skeleton's 'mol' file.*
 *The results will be written to the same directory of the skeleton path.*
