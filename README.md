@@ -25,7 +25,7 @@ Docking based molecular generation module (suitable for fused-ring nitro compoun
       -s, skeleton(mol), abs path required
       -m, dump mol files
       -n, substitution number
-
+**Warning:** *Please remove the H atom of the skeleton in the mol file, and the retained H atom will not be replaced by substituents.*
 ## Example: ##
     python EM_Generator_Docking.py -s Examples/MYX_AB.mol -m
 
